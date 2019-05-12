@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+    <title>Blog {% if page.title %}| {{ page.title }} – {% endif %}</title>
 
     {% include meta.html %}
 
@@ -27,8 +27,10 @@
           </div>
 
           <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
+            <a href="/">Blog</a>
+            {% if site.aboutUrl %}
+            <a href="{{ site.aboutUrl }}">About</a>
+            {% endif %}
           </nav>
         </header>
       </div>

@@ -5,14 +5,15 @@ layout: default
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
-
+      
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <span class="date">{{ post.date | date: "%B %e, %Y"}}</span>
 
-      <div class="entry">
+      <div class="entry mukkadimah">
         {{ post.excerpt }}
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">More...</a>
     </article>
   {% endfor %}
 </div>

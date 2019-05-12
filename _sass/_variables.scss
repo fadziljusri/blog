@@ -13,11 +13,15 @@ $darkGray: #333;
 $gray: #666;
 $lightGray: #eee;
 $white: #fff;
+$themeBg: #3273dc;
+$themeFontBg: $white;
+$themeLinkHover: $darkerGray;
 
 // Font stacks
 $helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$helveticaNeue: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
 $georgia: Georgia, serif;
+
 
 // Mobile breakpoints
 @mixin mobile {
