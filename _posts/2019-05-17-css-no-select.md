@@ -7,7 +7,7 @@ categories:
 ---
 
 
-I just **HATE** the highlighting effect on `<a></a>` tag or any button whenever clicked!!
+I **HATE** the highlighting effect on `<a></a>` tag or any button whenever clicked!!
 
 
 ```css
