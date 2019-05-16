@@ -8,8 +8,19 @@ pre.highlight {
   -webkit-box-shadow: 3px 3px rgba(0,0,0,0.1);
   box-shadow: 3px 3px rgba(0,0,0,0.1);
   margin: 20px 0 20px 0;
-  overflow: hidden;
+  scroll-behavior: smooth;
+  overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
+
+::-webkit-scrollbar {
+  width: 0px;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator */
+// ::-webkit-scrollbar-thumb {
+//   background: #3273dc;
+// }
 
 code {
   font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Blog {% if page.title %}| {{ page.title }} – {% endif %}</title>
+    <title> Fadzil's Blog {% if page.title %}| {{ page.title }} – {% endif %}</title>
 
     {% include meta.html %}
 
@@ -26,7 +26,7 @@
             <p class="site-description">{{ site.description }}</p>
           </div>
 
-          <nav>
+          <nav class="clearfix">
             <a href="/">Blog</a>
             {% if site.aboutUrl %}
             <a href="{{ site.aboutUrl }}">About</a>

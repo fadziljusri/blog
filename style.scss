@@ -44,8 +44,8 @@ h6 {
   color: $darkerGray;
   font-weight: bold;
 
-  line-height: 1.7;
-  margin: 1rem 0 0;
+  line-height: 1.5;
+  margin: 0.5rem 0;
   padding: 0;
 
   @include mobile {
@@ -73,6 +73,10 @@ h4 {
   color: $gray;
 }
 
+.post-title {
+  font-weight: 600;
+}
+
 p {
   margin: 2rem 0;
   text-align: justify;
@@ -80,7 +84,18 @@ p {
 
 a {
   color: $blue;
-  text-decoration: none;
+  text-decoration: none !important;
+  outline: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+  // -webkit-touch-callout: none !important;
+  // -webkit-user-select: none !important;
+  // -khtml-user-select: none !important;
+  // -moz-user-select: none !important;
+  // -ms-user-select: none !important;
+  // user-select: none !important;
+  // -webkit-tap-highlight-color: transparent !important;
+
   cursor: pointer;
   &:hover,
   &:active {
@@ -189,9 +204,9 @@ img {
   margin-right: 15px;
 
   @include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
+    // float: left;
+    display: inline-block;
+    // margin: 0;
   }
 
   img {
@@ -203,9 +218,9 @@ img {
   float: left;
 
   @include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
+    // float: left;
+    display: inline-block;
+    margin: 0;
   }
 }
 
@@ -219,6 +234,7 @@ img {
   letter-spacing: 1px;
   outline: none;
   line-height: 1.5;
+  text-align: left;
 }
 
 .site-name a:hover {
@@ -236,7 +252,6 @@ img {
   }
 }
 
-
 nav {
   float: right;
   margin-top: 21px; // @TODO: Vertically middle align
@@ -244,8 +259,8 @@ nav {
   font-size: 18px;
 
   @include mobile {
-    float: none;
-    margin-top: 9px;
+    float: left;
+    margin: 10px 0;
     display: block;
     font-size: 16px;
   }
