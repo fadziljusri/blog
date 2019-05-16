@@ -22,14 +22,14 @@
           <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
 
           <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+            <h1 class="site-name no-select"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
             <p class="site-description">{{ site.description }}</p>
           </div>
 
           <nav class="clearfix">
-            <a href="/">Blog</a>
+            <a class="no-select" href="/">Blog</a>
             {% if site.aboutUrl %}
-            <a href="{{ site.aboutUrl }}">About</a>
+            <a class="no-select" href="{{ site.aboutUrl }}">About</a>
             {% endif %}
           </nav>
         </header>
