@@ -75,6 +75,8 @@ h4 {
 
 .post-title {
   font-weight: 600;
+  margin-top: 0 !important;
+  // margin-bottom: 0 !important;
 }
 
 p {
@@ -154,6 +156,12 @@ b {
 
 img {
   max-width: 100%;
+}
+
+.back-btn {
+  height: 48px;
+  width: 48px;
+  background: white;
 }
 
 // Fixes images in popup boxes from Google Translate
@@ -301,14 +309,16 @@ nav {
 //
 
 .posts > .post {
-  padding-bottom: 1.5rem;
-  border-bottom: 1px solid $lightGray;
+  padding: 0.5rem 1rem 1rem;
+  border: 1px solid $lightGray;
+  background: #fafafa;
+  border-radius: 10px;
 }
 
-.posts > .post:last-child {
-  padding-bottom: 0;
-  border-bottom: none;
-}
+// .posts > .post:last-child {
+//   padding-bottom: 0;
+//   border-bottom: none;
+// }
 
 .post {
   margin: 1rem auto;

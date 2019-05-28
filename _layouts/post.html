@@ -3,7 +3,9 @@ layout: default
 ---
 
 <article class="post">
-  <a href="javascript:history.back()">&lt; Back</a>
+  <a href="javascript:history.back()">
+    <img src="../images/back.png" alt="back" class="back-btn">
+  </a>
   
   <h1 class="post-title">{{ page.title }}</h1>
   <div class="date">
@@ -13,8 +15,6 @@ layout: default
   <div class="entry">
     {{ content }}
   </div>
-
-  <a href="javascript:history.back()">&lt; Back</a>
 
   {% include disqus.html %}
 </article>
