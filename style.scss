@@ -73,14 +73,19 @@ h4 {
   color: $gray;
 }
 
+blockqoute > p {
+  margin: 0 auto;
+}
+
 .post-title {
   font-weight: 600;
   margin-top: 0 !important;
+  color: $themeBg
   // margin-bottom: 0 !important;
 }
 
 p {
-  margin: 2rem 0;
+  // margin: 2rem 0;
   text-align: justify;
 }
 
@@ -172,6 +177,7 @@ img {
 .date {
   font-style: italic;
   color: $gray;
+  font-size: 90%;
 }
 
 // Specify the color of the selection
@@ -300,7 +306,11 @@ nav {
   }
 
   a:hover {
-    color: $themeLinkHover;
+    color: $white;
+    padding-bottom: 5px;
+    border-bottom: $white 1px solid !important;
+    -webkit-transition: 0.4s all ease !important;
+    transition: 0.4s all ease !important;
   }
 }
 
@@ -309,10 +319,18 @@ nav {
 //
 
 .posts > .post {
-  padding: 0.5rem 1rem 1rem;
-  border: 1px solid $lightGray;
-  background: #fafafa;
+  padding: 1rem 1.5rem 1.5rem;
+  // border: 1px solid $lightGray;
+  box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1) !important;
+  color: #4a4a4a;
+  background: $white;
   border-radius: 10px;
+  cursor: pointer;
+}
+
+.posts .post-link {
+  width: 100%;
+  color: unset;
 }
 
 // .posts > .post:last-child {
@@ -324,12 +342,17 @@ nav {
   margin: 1rem auto;
 
   blockquote {
-    margin: 1.8em 0.8em;
-    border-left: 2px solid $gray;
+    margin: 1.8em auto;
+    border-left: 2px solid #6a737d;
     padding: 0.1em 1em;
     color: $gray;
-    font-size: 22px;
-    font-style: italic;
+    background: whitesmoke;
+    font-size: 100%;
+    // font-style: italic;
+
+    p {
+      text-align: left;
+    }
   }
 
   .date {
@@ -357,11 +380,15 @@ nav {
 
 .post {
   .entry {
-    p,
-    div,
-    span,
-    section {
-      margin: 2rem auto;
+    &>p,
+    &>div,
+    &>span,
+    &>section {
+      margin: 0 auto 2rem;
+    }
+
+    img {
+      border: 1px solid $lightGray
     }
   }
 }
