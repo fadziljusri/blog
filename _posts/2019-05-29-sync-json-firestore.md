@@ -69,4 +69,4 @@ $ npm start
 
 # Sync snapshot
 
-![example]({{ site.baseurl }}/images/sync-json-firestore-example.png)
+![example]({{ site.baseurl }}/images/sync-json-firestore-example.PNG)
