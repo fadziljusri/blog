@@ -7,7 +7,9 @@ categories:
   - firestore
 ---
 
-A Node.js script that help you **sync** your json with Firestore database. You can download [sync-json-firestore](https://github.com/fadziljusri/sync-json-firestore/archive/master.zip) from my github repository or clone it. This script **only** sync/update `Firestore collection` with declared `keys` in JSON file. It will not affecting any other existing `Firestore collection` from which are not available from the JSON file
+A Node.js script that help you **sync** your json with Firestore database. 
+
+This script **only** sync/update `Firestore collection` with declared `keys` in JSON file. It will not affecting any other existing `Firestore collection` from which are not available from the JSON file. You can download [sync-json-firestore](https://github.com/fadziljusri/sync-json-firestore/archive/master.zip) from my github repository or clone it. 
 
 > git clone https://github.com/fadziljusri/sync-json-firestore.git
 

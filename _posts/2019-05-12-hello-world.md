@@ -9,7 +9,7 @@ categories:
 
 "With new domain comes with new website" (Peter Parker, 2012). **#truestory**
 
-So recently, I just received an email that my previous domain `fadzil.win` has expired (so sad LOL). Suddenly, this idea just came to my mind over the _`nothing to do`_ weekand. _"Why not I just buy (LOL i'm not paying for it though) new domain and recreate myself"_. Sort of like new year resolution kind of thing but its May already but whatever Im bored.
+So recently, I just received an email that my previous domain `fadzil.win` has expired (so sad LOL). Suddenly, this idea just came to my mind over the `nothing to do` weekand. _"Why not I just buy (LOL i'm not paying for it though) new domain and recreate myself"_. Sort of like new year resolution kind of thing but its May already but whatever Im bored.
 
 
 ### What I've planned to share inside my blog?

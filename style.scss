@@ -318,7 +318,7 @@ nav {
 // .main
 //
 
-.posts > .post {
+.posts  .post {
   padding: 1rem 1.5rem 1.5rem;
   // border: 1px solid $lightGray;
   box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1) !important;
@@ -373,7 +373,7 @@ nav {
 .entry.mukkadimah p {
   overflow: hidden;
   display: -webkit-box;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
   margin-top: 1rem !important;
 }

@@ -4,8 +4,8 @@ layout: default
 
 <div class="posts">
   {% for post in site.posts %}
-    <article class="post no-select" onclick="location.href = {{ site.baseurl }}{{ post.url }}">
-      <!-- <a class="post-link no-select" href="{{ site.baseurl }}{{ post.url }}"> -->
+  <a class="post-link no-select" href="{{ site.baseurl }}{{ post.url }}">
+    <article class="post no-select">
         <h2 class="post-title no-select">{{ post.title }}</h2>
         
         <div class="entry mukkadimah">
@@ -14,9 +14,8 @@ layout: default
 
         <span class="date">Written on {{ post.date | date: "%B %e, %Y"}}</span>
         <!-- <div class="read-more no-select">Read More...</div> -->
-
-      <!-- </a> -->
-    </article>
+      </article>
+    </a>
 
   {% endfor %}
 </div>
