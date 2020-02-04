@@ -15,6 +15,25 @@ Helpers/middlewares to formats API responses into stuctured and human-readable w
 - [Express Node.js](https://gist.github.com/fadziljusri/b2a1110c1281563e4b47201ba8d3d51c#file-httpresponses-js)
 - [Python](https://gist.github.com/fadziljusri/b2a1110c1281563e4b47201ba8d3d51c#file-http_responses-py)
 
+
+## Response format (json)
+```js
+// 2xx success response
+{
+  "status": "success",
+  "message": "",
+  "data": "<any>"
+}
+
+// 4xx error response
+{
+  "status": "failed",
+  "statusText": "",
+  "message": "",
+  "data": "<any>"
+}
+```
+
 ## Example in Express Node.js
 ```js
 const { Res200 } = require("./httpResponses")
